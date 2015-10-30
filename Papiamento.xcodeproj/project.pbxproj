@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB4BBE81BE3791F00915F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBE71BE3791F00915F0C /* AppDelegate.swift */; };
+		FBB4BBEA1BE3791F00915F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBE91BE3791F00915F0C /* ViewController.swift */; };
+		FBB4BBED1BE3791F00915F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB4BBEB1BE3791F00915F0C /* Main.storyboard */; };
+		FBB4BBEF1BE3791F00915F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB4BBEE1BE3791F00915F0C /* Assets.xcassets */; };
+		FBB4BBF21BE3791F00915F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB4BBF01BE3791F00915F0C /* LaunchScreen.storyboard */; };
+		FBB4BBFD1BE3792000915F0C /* PapiamentoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBFC1BE3792000915F0C /* PapiamentoTests.swift */; };
+		FBB4BC081BE3792000915F0C /* PapiamentoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BC071BE3792000915F0C /* PapiamentoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBB4BBF91BE3792000915F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB4BBDC1BE3791F00915F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB4BBE31BE3791F00915F0C;
+			remoteInfo = Papiamento;
+		};
+		FBB4BC041BE3792000915F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB4BBDC1BE3791F00915F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB4BBE31BE3791F00915F0C;
+			remoteInfo = Papiamento;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBB4BBE41BE3791F00915F0C /* Papiamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Papiamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB4BBE71BE3791F00915F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBB4BBE91BE3791F00915F0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBB4BBEC1BE3791F00915F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBB4BBEE1BE3791F00915F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB4BBF11BE3791F00915F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBB4BBF31BE3791F00915F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB4BBF81BE3792000915F0C /* PapiamentoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PapiamentoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB4BBFC1BE3792000915F0C /* PapiamentoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapiamentoTests.swift; sourceTree = "<group>"; };
+		FBB4BBFE1BE3792000915F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB4BC031BE3792000915F0C /* PapiamentoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PapiamentoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB4BC071BE3792000915F0C /* PapiamentoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapiamentoUITests.swift; sourceTree = "<group>"; };
+		FBB4BC091BE3792000915F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB4BBE11BE3791F00915F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB4BBF51BE3792000915F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB4BC001BE3792000915F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB4BBDB1BE3791F00915F0C = {
+			isa = PBXGroup;
+			children = (
+				FBB4BBE61BE3791F00915F0C /* Papiamento */,
+				FBB4BBFB1BE3792000915F0C /* PapiamentoTests */,
+				FBB4BC061BE3792000915F0C /* PapiamentoUITests */,
+				FBB4BBE51BE3791F00915F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB4BBE51BE3791F00915F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4BBE41BE3791F00915F0C /* Papiamento.app */,
+				FBB4BBF81BE3792000915F0C /* PapiamentoTests.xctest */,
+				FBB4BC031BE3792000915F0C /* PapiamentoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB4BBE61BE3791F00915F0C /* Papiamento */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4BBE71BE3791F00915F0C /* AppDelegate.swift */,
+				FBB4BBE91BE3791F00915F0C /* ViewController.swift */,
+				FBB4BBEB1BE3791F00915F0C /* Main.storyboard */,
+				FBB4BBEE1BE3791F00915F0C /* Assets.xcassets */,
+				FBB4BBF01BE3791F00915F0C /* LaunchScreen.storyboard */,
+				FBB4BBF31BE3791F00915F0C /* Info.plist */,
+			);
+			path = Papiamento;
+			sourceTree = "<group>";
+		};
+		FBB4BBFB1BE3792000915F0C /* PapiamentoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4BBFC1BE3792000915F0C /* PapiamentoTests.swift */,
+				FBB4BBFE1BE3792000915F0C /* Info.plist */,
+			);
+			path = PapiamentoTests;
+			sourceTree = "<group>";
+		};
+		FBB4BC061BE3792000915F0C /* PapiamentoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4BC071BE3792000915F0C /* PapiamentoUITests.swift */,
+				FBB4BC091BE3792000915F0C /* Info.plist */,
+			);
+			path = PapiamentoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB4BBE31BE3791F00915F0C /* Papiamento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB4BC0C1BE3792000915F0C /* Build configuration list for PBXNativeTarget "Papiamento" */;
+			buildPhases = (
+				FBB4BBE01BE3791F00915F0C /* Sources */,
+				FBB4BBE11BE3791F00915F0C /* Frameworks */,
+				FBB4BBE21BE3791F00915F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Papiamento;
+			productName = Papiamento;
+			productReference = FBB4BBE41BE3791F00915F0C /* Papiamento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBB4BBF71BE3792000915F0C /* PapiamentoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB4BC0F1BE3792000915F0C /* Build configuration list for PBXNativeTarget "PapiamentoTests" */;
+			buildPhases = (
+				FBB4BBF41BE3792000915F0C /* Sources */,
+				FBB4BBF51BE3792000915F0C /* Frameworks */,
+				FBB4BBF61BE3792000915F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB4BBFA1BE3792000915F0C /* PBXTargetDependency */,
+			);
+			name = PapiamentoTests;
+			productName = PapiamentoTests;
+			productReference = FBB4BBF81BE3792000915F0C /* PapiamentoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBB4BC021BE3792000915F0C /* PapiamentoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB4BC121BE3792000915F0C /* Build configuration list for PBXNativeTarget "PapiamentoUITests" */;
+			buildPhases = (
+				FBB4BBFF1BE3792000915F0C /* Sources */,
+				FBB4BC001BE3792000915F0C /* Frameworks */,
+				FBB4BC011BE3792000915F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB4BC051BE3792000915F0C /* PBXTargetDependency */,
+			);
+			name = PapiamentoUITests;
+			productName = PapiamentoUITests;
+			productReference = FBB4BC031BE3792000915F0C /* PapiamentoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB4BBDC1BE3791F00915F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Christine Vinck";
+				TargetAttributes = {
+					FBB4BBE31BE3791F00915F0C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FBB4BBF71BE3792000915F0C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FBB4BBE31BE3791F00915F0C;
+					};
+					FBB4BC021BE3792000915F0C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FBB4BBE31BE3791F00915F0C;
+					};
+				};
+			};
+			buildConfigurationList = FBB4BBDF1BE3791F00915F0C /* Build configuration list for PBXProject "Papiamento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBB4BBDB1BE3791F00915F0C;
+			productRefGroup = FBB4BBE51BE3791F00915F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB4BBE31BE3791F00915F0C /* Papiamento */,
+				FBB4BBF71BE3792000915F0C /* PapiamentoTests */,
+				FBB4BC021BE3792000915F0C /* PapiamentoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB4BBE21BE3791F00915F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB4BBF21BE3791F00915F0C /* LaunchScreen.storyboard in Resources */,
+				FBB4BBEF1BE3791F00915F0C /* Assets.xcassets in Resources */,
+				FBB4BBED1BE3791F00915F0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB4BBF61BE3792000915F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB4BC011BE3792000915F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB4BBE01BE3791F00915F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB4BBEA1BE3791F00915F0C /* ViewController.swift in Sources */,
+				FBB4BBE81BE3791F00915F0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB4BBF41BE3792000915F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB4BBFD1BE3792000915F0C /* PapiamentoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB4BBFF1BE3792000915F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB4BC081BE3792000915F0C /* PapiamentoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBB4BBFA1BE3792000915F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB4BBE31BE3791F00915F0C /* Papiamento */;
+			targetProxy = FBB4BBF91BE3792000915F0C /* PBXContainerItemProxy */;
+		};
+		FBB4BC051BE3792000915F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB4BBE31BE3791F00915F0C /* Papiamento */;
+			targetProxy = FBB4BC041BE3792000915F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBB4BBEB1BE3791F00915F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB4BBEC1BE3791F00915F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBB4BBF01BE3791F00915F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB4BBF11BE3791F00915F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBB4BC0A1BE3792000915F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBB4BC0B1BE3792000915F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB4BC0D1BE3792000915F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Papiamento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Papiamento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBB4BC0E1BE3792000915F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Papiamento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Papiamento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBB4BC101BE3792000915F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PapiamentoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PapiamentoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Papiamento.app/Papiamento";
+			};
+			name = Debug;
+		};
+		FBB4BC111BE3792000915F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PapiamentoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PapiamentoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Papiamento.app/Papiamento";
+			};
+			name = Release;
+		};
+		FBB4BC131BE3792000915F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PapiamentoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PapiamentoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Papiamento;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FBB4BC141BE3792000915F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PapiamentoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PapiamentoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Papiamento;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB4BBDF1BE3791F00915F0C /* Build configuration list for PBXProject "Papiamento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB4BC0A1BE3792000915F0C /* Debug */,
+				FBB4BC0B1BE3792000915F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB4BC0C1BE3792000915F0C /* Build configuration list for PBXNativeTarget "Papiamento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB4BC0D1BE3792000915F0C /* Debug */,
+				FBB4BC0E1BE3792000915F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBB4BC0F1BE3792000915F0C /* Build configuration list for PBXNativeTarget "PapiamentoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB4BC101BE3792000915F0C /* Debug */,
+				FBB4BC111BE3792000915F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBB4BC121BE3792000915F0C /* Build configuration list for PBXNativeTarget "PapiamentoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB4BC131BE3792000915F0C /* Debug */,
+				FBB4BC141BE3792000915F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB4BBDC1BE3791F00915F0C /* Project object */;
+}
