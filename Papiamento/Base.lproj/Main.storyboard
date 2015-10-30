@@ -20,20 +20,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ban Papia Papiamento!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ii0-Yh-yOp">
                                 <rect key="frame" x="20" y="28" width="560" height="34"/>
                                 <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="Avq-fO-5br"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="vertaling" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YaL-sO-iQM">
-                                <rect key="frame" x="20" y="70" width="560" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-fC-dlE">
-                                <rect key="frame" x="20" y="108" width="360" height="350"/>
+                                <rect key="frame" x="120" y="108" width="360" height="350"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xeL-pL-k1o">
                                         <rect key="frame" x="0.0" y="0.0" width="360" height="50"/>
@@ -41,14 +32,22 @@
                                             <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugo-Xn-SaV">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
                                                 <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="4CD-Tm-oRT"/>
-                                                </constraints>
                                                 <state key="normal" title="Welkom!"/>
                                                 <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AFS-b9-gWi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9g-oZ-bjB">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                                <animations/>
+                                                <state key="normal" title="Tot ziens!"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SwA-37-Ulo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnu-VL-IUW">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Hallo!"/>
                                                 <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
@@ -56,75 +55,82 @@
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t2N-gD-76B"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9g-oZ-bjB">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
-                                                <animations/>
-                                                <state key="normal" title="Tot ziens!"/>
-                                            </button>
                                         </subviews>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstItem="T9g-oZ-bjB" firstAttribute="width" secondItem="ugo-Xn-SaV" secondAttribute="width" id="JHc-pg-Ttk"/>
-                                            <constraint firstItem="Fnu-VL-IUW" firstAttribute="width" secondItem="ugo-Xn-SaV" secondAttribute="width" id="dOV-2M-KtX"/>
+                                            <constraint firstItem="T9g-oZ-bjB" firstAttribute="width" secondItem="ugo-Xn-SaV" secondAttribute="width" id="KBw-Zx-m1X"/>
+                                            <constraint firstItem="Fnu-VL-IUW" firstAttribute="width" secondItem="ugo-Xn-SaV" secondAttribute="width" id="dA8-pH-eRF"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AyB-yd-xaJ">
                                         <rect key="frame" x="0.0" y="50" width="360" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xag-KS-aQg">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
-                                                <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="ri2-cs-OOx"/>
-                                                </constraints>
-                                                <state key="normal" title="Hoe heet je?"/>
-                                                <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILP-Cc-nSD">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
-                                                <animations/>
-                                                <state key="normal" title="Mijn naam is..."/>
-                                                <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="101" placeholderIntrinsicHeight="50" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ug1-9U-22x">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Hoe gaat het?"/>
                                                 <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BZI-BE-W0D"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xag-KS-aQg">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                                <animations/>
+                                                <state key="normal" title="Hoe heet je?"/>
+                                                <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="naT-Qx-p0p"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILP-Cc-nSD">
+                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                                <animations/>
+                                                <state key="normal" title="Mijn naam is..."/>
+                                                <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="43S-Rt-8h9"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstItem="ILP-Cc-nSD" firstAttribute="width" secondItem="xag-KS-aQg" secondAttribute="width" id="Gcg-xX-XaK"/>
-                                            <constraint firstItem="ug1-9U-22x" firstAttribute="width" secondItem="xag-KS-aQg" secondAttribute="width" id="RHq-M1-K2I"/>
+                                            <constraint firstItem="xag-KS-aQg" firstAttribute="width" secondItem="ug1-9U-22x" secondAttribute="width" id="C18-fu-sQU"/>
+                                            <constraint firstItem="ILP-Cc-nSD" firstAttribute="width" secondItem="ug1-9U-22x" secondAttribute="width" id="gbV-ve-xEZ"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AyN-Js-ifi">
                                         <rect key="frame" x="0.0" y="100" width="360" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0G-dG-Rtg">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7x-Kc-ums">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
                                                 <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="oYV-mg-Xx0"/>
-                                                </constraints>
-                                                <state key="normal" title="Nee"/>
+                                                <state key="normal" title="Ja"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="woB-Oo-FU8"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7x-Kc-ums">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0G-dG-Rtg">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="50"/>
                                                 <animations/>
-                                                <state key="normal" title="Ja"/>
+                                                <state key="normal" title="Nee"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qtT-cv-eLF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayp-Rs-l6e">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="50"/>
                                                 <animations/>
-                                                <state key="normal" title="Tot ziens!"/>
+                                                <state key="normal" title="Misschien"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ObP-Fp-Dee"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstItem="ayp-Rs-l6e" firstAttribute="width" secondItem="Y0G-dG-Rtg" secondAttribute="width" id="2qA-Bu-MHX"/>
-                                            <constraint firstItem="B7x-Kc-ums" firstAttribute="width" secondItem="Y0G-dG-Rtg" secondAttribute="width" id="YIz-60-Hpv"/>
+                                            <constraint firstItem="B7x-Kc-ums" firstAttribute="width" secondItem="Y0G-dG-Rtg" secondAttribute="width" id="thV-JS-Rgb"/>
+                                            <constraint firstItem="ayp-Rs-l6e" firstAttribute="width" secondItem="Y0G-dG-Rtg" secondAttribute="width" id="tlO-Bn-flL"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bx0-te-Gl2">
@@ -133,26 +139,32 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJj-Y0-FTx">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
                                                 <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="TxX-xz-SzZ"/>
-                                                </constraints>
                                                 <state key="normal" title="Goed"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MKs-Jn-sE3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Mh-CQ-Gqm">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Matig"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dEE-7f-m1c"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fw-ON-Nux">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Slecht"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wS2-V8-eQp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstItem="7Mh-CQ-Gqm" firstAttribute="width" secondItem="SJj-Y0-FTx" secondAttribute="width" id="UOh-M4-qXc"/>
-                                            <constraint firstItem="4Fw-ON-Nux" firstAttribute="width" secondItem="SJj-Y0-FTx" secondAttribute="width" id="iWQ-a1-T8R"/>
+                                            <constraint firstItem="7Mh-CQ-Gqm" firstAttribute="width" secondItem="SJj-Y0-FTx" secondAttribute="width" id="1gc-IV-tm2"/>
+                                            <constraint firstItem="4Fw-ON-Nux" firstAttribute="width" secondItem="SJj-Y0-FTx" secondAttribute="width" id="jnx-Wz-2PN"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ub-A1-i3M">
@@ -161,26 +173,32 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FR-sQ-PEo">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
                                                 <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="lMc-Ma-47I"/>
-                                                </constraints>
                                                 <state key="normal" title="Dankjewel"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g6J-hv-D9C"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ra-rF-aZI">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Dank voor alles!"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rop-hQ-Mhh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-AD-h5O">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Geen dank"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iPb-WS-jEN"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstItem="ckn-AD-h5O" firstAttribute="width" secondItem="0FR-sQ-PEo" secondAttribute="width" id="aZz-lI-d69"/>
-                                            <constraint firstItem="8Ra-rF-aZI" firstAttribute="width" secondItem="0FR-sQ-PEo" secondAttribute="width" id="n6N-T2-WJU"/>
+                                            <constraint firstItem="8Ra-rF-aZI" firstAttribute="width" secondItem="0FR-sQ-PEo" secondAttribute="width" id="2YI-bZ-8jz"/>
+                                            <constraint firstItem="ckn-AD-h5O" firstAttribute="width" secondItem="0FR-sQ-PEo" secondAttribute="width" id="VqH-p1-G3p"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyD-Yn-8xy">
@@ -189,26 +207,32 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQr-lh-eAS">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
                                                 <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="77u-yn-qjh"/>
-                                                </constraints>
                                                 <state key="normal" title="Goedendag"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLS-YA-rB1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haA-kr-Mna">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Goedemiddag"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dn0-kI-v1W"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXV-Xi-SPW">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Goedenavond"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wEa-mO-Rn6"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstItem="SXV-Xi-SPW" firstAttribute="width" secondItem="wQr-lh-eAS" secondAttribute="width" id="5NS-Z6-0EX"/>
-                                            <constraint firstItem="haA-kr-Mna" firstAttribute="width" secondItem="wQr-lh-eAS" secondAttribute="width" id="zv0-Jt-ghn"/>
+                                            <constraint firstItem="SXV-Xi-SPW" firstAttribute="width" secondItem="wQr-lh-eAS" secondAttribute="width" id="5On-Hg-ruS"/>
+                                            <constraint firstItem="haA-kr-Mna" firstAttribute="width" secondItem="wQr-lh-eAS" secondAttribute="width" id="ipi-2p-VO9"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WeW-Qn-1DM">
@@ -217,65 +241,74 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abd-jQ-vVl">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
                                                 <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="fd2-ge-XHL"/>
-                                                </constraints>
-                                                <state key="normal" title="Alstublieft"/>
+                                                <state key="normal" title="Vandaag"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCJ-pC-FUJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjd-BF-gJg">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Tot morgen!"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1X8-Ib-mqI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9V-IS-Waw">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="50"/>
                                                 <animations/>
                                                 <state key="normal" title="Welterusten"/>
+                                                <connections>
+                                                    <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y8u-K7-pqf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstItem="bjd-BF-gJg" firstAttribute="width" secondItem="abd-jQ-vVl" secondAttribute="width" id="7BV-Yz-okN"/>
-                                            <constraint firstItem="G9V-IS-Waw" firstAttribute="width" secondItem="abd-jQ-vVl" secondAttribute="width" id="yfd-D6-9dt"/>
+                                            <constraint firstItem="bjd-BF-gJg" firstAttribute="width" secondItem="abd-jQ-vVl" secondAttribute="width" id="F6t-6i-NDx"/>
+                                            <constraint firstItem="G9V-IS-Waw" firstAttribute="width" secondItem="abd-jQ-vVl" secondAttribute="width" id="w2B-2D-nhP"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstItem="AyB-yd-xaJ" firstAttribute="width" secondItem="xeL-pL-k1o" secondAttribute="width" id="A7c-9q-8wf"/>
-                                    <constraint firstItem="bx0-te-Gl2" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="COw-UT-8Q9"/>
-                                    <constraint firstItem="WeW-Qn-1DM" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="F9P-YL-xQC"/>
-                                    <constraint firstItem="WeW-Qn-1DM" firstAttribute="width" secondItem="xeL-pL-k1o" secondAttribute="width" id="ISJ-AA-ECI"/>
-                                    <constraint firstItem="6Ub-A1-i3M" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="IoV-fz-qAx"/>
-                                    <constraint firstItem="AyN-Js-ifi" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="Jhr-CD-B96"/>
-                                    <constraint firstItem="AyB-yd-xaJ" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="JzK-X1-jFr"/>
-                                    <constraint firstItem="HyD-Yn-8xy" firstAttribute="width" secondItem="xeL-pL-k1o" secondAttribute="width" id="K0p-XZ-Ra0"/>
-                                    <constraint firstItem="HyD-Yn-8xy" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="Q3t-Oe-gb4"/>
-                                    <constraint firstItem="6Ub-A1-i3M" firstAttribute="width" secondItem="xeL-pL-k1o" secondAttribute="width" id="Spe-0p-ogn"/>
-                                    <constraint firstItem="AyN-Js-ifi" firstAttribute="width" secondItem="xeL-pL-k1o" secondAttribute="width" id="b6u-Le-aKV"/>
-                                    <constraint firstItem="bx0-te-Gl2" firstAttribute="width" secondItem="xeL-pL-k1o" secondAttribute="width" id="my2-1f-2hH"/>
+                                    <constraint firstItem="6Ub-A1-i3M" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="4Ea-j5-2Ov"/>
+                                    <constraint firstItem="WeW-Qn-1DM" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="BDQ-hS-0PX"/>
+                                    <constraint firstItem="AyB-yd-xaJ" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="Je1-Ve-UIw"/>
+                                    <constraint firstItem="HyD-Yn-8xy" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="T8J-Sl-QjT"/>
+                                    <constraint firstItem="bx0-te-Gl2" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="cmX-X1-JAD"/>
+                                    <constraint firstItem="AyN-Js-ifi" firstAttribute="height" secondItem="xeL-pL-k1o" secondAttribute="height" id="dPr-dt-bU0"/>
                                 </constraints>
                             </stackView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Laten we papiaments praten!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YaL-sO-iQM">
+                                <rect key="frame" x="20" y="70" width="559" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="YaL-sO-iQM" secondAttribute="trailing" constant="1" id="53g-NC-26Q"/>
                             <constraint firstItem="YaL-sO-iQM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="105" id="6d1-WG-Q4X"/>
-                            <constraint firstItem="YaL-sO-iQM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6qQ-Ed-4ka"/>
-                            <constraint firstItem="YaL-sO-iQM" firstAttribute="trailing" secondItem="ii0-Yh-yOp" secondAttribute="trailing" id="7O5-w3-bDN"/>
-                            <constraint firstItem="YaL-sO-iQM" firstAttribute="leading" secondItem="ii0-Yh-yOp" secondAttribute="leading" id="7h9-Bv-vJk"/>
                             <constraint firstItem="ii0-Yh-yOp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="92E-dm-Sm1"/>
                             <constraint firstAttribute="leadingMargin" secondItem="YaL-sO-iQM" secondAttribute="leading" id="9Oo-HJ-Dhu"/>
-                            <constraint firstItem="6MX-fC-dlE" firstAttribute="top" secondItem="YaL-sO-iQM" secondAttribute="bottom" constant="8" symbolic="YES" id="IE6-YX-36u"/>
+                            <constraint firstItem="bjd-BF-gJg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B6o-WH-Ett"/>
+                            <constraint firstItem="YaL-sO-iQM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="Fv5-MP-OpP"/>
+                            <constraint firstItem="xeL-pL-k1o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="88" id="IgF-hg-XPY"/>
+                            <constraint firstItem="ii0-Yh-yOp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="PWZ-Mj-sHg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YaL-sO-iQM" secondAttribute="trailing" constant="104" id="PfK-vR-tJ4"/>
-                            <constraint firstItem="YaL-sO-iQM" firstAttribute="leading" secondItem="6MX-fC-dlE" secondAttribute="leading" id="VJN-Jd-1hC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YaL-sO-iQM" secondAttribute="trailing" constant="1" id="T33-j0-KsZ"/>
+                            <constraint firstItem="ii0-Yh-yOp" firstAttribute="centerX" secondItem="YaL-sO-iQM" secondAttribute="centerX" id="VMO-B5-NLp"/>
+                            <constraint firstItem="6MX-fC-dlE" firstAttribute="top" secondItem="YaL-sO-iQM" secondAttribute="bottom" constant="8" id="Wbo-ts-Msl"/>
                             <constraint firstItem="ii0-Yh-yOp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ZIk-9W-6Lq"/>
+                            <constraint firstItem="ii0-Yh-yOp" firstAttribute="leading" secondItem="YaL-sO-iQM" secondAttribute="leading" id="ged-lq-3sU"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="YaL-sO-iQM" secondAttribute="leading" id="hOW-as-ZU9"/>
+                            <constraint firstItem="YaL-sO-iQM" firstAttribute="top" secondItem="ii0-Yh-yOp" secondAttribute="bottom" constant="8" symbolic="YES" id="ik9-qx-Z2j"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YaL-sO-iQM" secondAttribute="trailing" id="jTS-Vu-nZP"/>
-                            <constraint firstItem="ii0-Yh-yOp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="pna-eC-Z4q"/>
-                            <constraint firstItem="YaL-sO-iQM" firstAttribute="top" secondItem="ii0-Yh-yOp" secondAttribute="bottom" constant="8" symbolic="YES" id="sYO-FE-rtV"/>
-                            <constraint firstItem="YaL-sO-iQM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tY2-3x-2hD"/>
                             <constraint firstItem="ii0-Yh-yOp" firstAttribute="centerX" secondItem="YaL-sO-iQM" secondAttribute="centerX" id="xHv-ha-AjA"/>
-                            <constraint firstItem="6MX-fC-dlE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yi6-fM-lQp"/>
+                            <constraint firstItem="6MX-fC-dlE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xTM-05-qs2"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -290,6 +323,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="defaultButton" destination="ugo-Xn-SaV" id="BdV-Fb-dde"/>
                         <outlet property="papiamento" destination="ii0-Yh-yOp" id="yx9-Oj-0kS"/>
                         <outlet property="translated" destination="YaL-sO-iQM" id="bQS-r9-RnG"/>
                     </connections>
