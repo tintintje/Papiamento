@@ -14,6 +14,7 @@
 		FBB4BBF21BE3791F00915F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB4BBF01BE3791F00915F0C /* LaunchScreen.storyboard */; };
 		FBB4BBFD1BE3792000915F0C /* PapiamentoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBFC1BE3792000915F0C /* PapiamentoTests.swift */; };
 		FBB4BC081BE3792000915F0C /* PapiamentoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BC071BE3792000915F0C /* PapiamentoUITests.swift */; };
+		FBB4BC161BE3830100915F0C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BC151BE3830100915F0C /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FBB4BC031BE3792000915F0C /* PapiamentoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PapiamentoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB4BC071BE3792000915F0C /* PapiamentoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapiamentoUITests.swift; sourceTree = "<group>"; };
 		FBB4BC091BE3792000915F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB4BC151BE3830100915F0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Papiamento/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		FBB4BBDB1BE3791F00915F0C = {
 			isa = PBXGroup;
 			children = (
+				FBB4BC151BE3830100915F0C /* README.md */,
 				FBB4BBE61BE3791F00915F0C /* Papiamento */,
 				FBB4BBFB1BE3792000915F0C /* PapiamentoTests */,
 				FBB4BC061BE3792000915F0C /* PapiamentoUITests */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB4BC161BE3830100915F0C /* README.md in Sources */,
 				FBB4BBEA1BE3791F00915F0C /* ViewController.swift in Sources */,
 				FBB4BBE81BE3791F00915F0C /* AppDelegate.swift in Sources */,
 			);
