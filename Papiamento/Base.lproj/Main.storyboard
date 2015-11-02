@@ -23,14 +23,14 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-fC-dlE">
-                                <rect key="frame" x="120" y="108" width="360" height="350"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" layoutMarginsFollowReadableWidth="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-fC-dlE">
+                                <rect key="frame" x="120" y="108" width="360" height="492"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xeL-pL-k1o">
-                                        <rect key="frame" x="0.0" y="0.0" width="360" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xeL-pL-k1o">
+                                        <rect key="frame" x="0.0" y="0.0" width="360" height="71"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugo-Xn-SaV">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugo-Xn-SaV">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Welkom!"/>
                                                 <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
@@ -38,16 +38,16 @@
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AFS-b9-gWi"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9g-oZ-bjB">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9g-oZ-bjB">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Tot ziens!"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SwA-37-Ulo"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnu-VL-IUW">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnu-VL-IUW">
+                                                <rect key="frame" x="240" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Hallo!"/>
                                                 <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
@@ -62,11 +62,11 @@
                                             <constraint firstItem="Fnu-VL-IUW" firstAttribute="width" secondItem="ugo-Xn-SaV" secondAttribute="width" id="dA8-pH-eRF"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AyB-yd-xaJ">
-                                        <rect key="frame" x="0.0" y="50" width="360" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AyB-yd-xaJ">
+                                        <rect key="frame" x="0.0" y="71" width="360" height="70"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="101" placeholderIntrinsicHeight="50" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ug1-9U-22x">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="101" placeholderIntrinsicHeight="50" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ug1-9U-22x">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Hoe gaat het?"/>
                                                 <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
@@ -74,8 +74,8 @@
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BZI-BE-W0D"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xag-KS-aQg">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xag-KS-aQg">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Hoe heet je?"/>
                                                 <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
@@ -83,8 +83,8 @@
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="naT-Qx-p0p"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILP-Cc-nSD">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILP-Cc-nSD">
+                                                <rect key="frame" x="240" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Mijn naam is..."/>
                                                 <variation key="heightClass=regular" preservesSuperviewLayoutMargins="NO"/>
@@ -99,27 +99,27 @@
                                             <constraint firstItem="ILP-Cc-nSD" firstAttribute="width" secondItem="ug1-9U-22x" secondAttribute="width" id="gbV-ve-xEZ"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AyN-Js-ifi">
-                                        <rect key="frame" x="0.0" y="100" width="360" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AyN-Js-ifi">
+                                        <rect key="frame" x="0.0" y="141" width="360" height="71"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7x-Kc-ums">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7x-Kc-ums">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Ja"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="woB-Oo-FU8"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0G-dG-Rtg">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0G-dG-Rtg">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Nee"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qtT-cv-eLF"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayp-Rs-l6e">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayp-Rs-l6e">
+                                                <rect key="frame" x="240" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Misschien"/>
                                                 <connections>
@@ -133,27 +133,27 @@
                                             <constraint firstItem="ayp-Rs-l6e" firstAttribute="width" secondItem="Y0G-dG-Rtg" secondAttribute="width" id="tlO-Bn-flL"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bx0-te-Gl2">
-                                        <rect key="frame" x="0.0" y="150" width="360" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bx0-te-Gl2">
+                                        <rect key="frame" x="0.0" y="211" width="360" height="70"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJj-Y0-FTx">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJj-Y0-FTx">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Goed"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MKs-Jn-sE3"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Mh-CQ-Gqm">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Mh-CQ-Gqm">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Matig"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dEE-7f-m1c"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fw-ON-Nux">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fw-ON-Nux">
+                                                <rect key="frame" x="240" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Slecht"/>
                                                 <connections>
@@ -167,27 +167,27 @@
                                             <constraint firstItem="4Fw-ON-Nux" firstAttribute="width" secondItem="SJj-Y0-FTx" secondAttribute="width" id="jnx-Wz-2PN"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ub-A1-i3M">
-                                        <rect key="frame" x="0.0" y="200" width="360" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ub-A1-i3M">
+                                        <rect key="frame" x="0.0" y="281" width="360" height="71"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FR-sQ-PEo">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FR-sQ-PEo">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Dankjewel"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g6J-hv-D9C"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ra-rF-aZI">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ra-rF-aZI">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Dank voor alles!"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rop-hQ-Mhh"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-AD-h5O">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-AD-h5O">
+                                                <rect key="frame" x="240" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Geen dank"/>
                                                 <connections>
@@ -201,27 +201,27 @@
                                             <constraint firstItem="ckn-AD-h5O" firstAttribute="width" secondItem="0FR-sQ-PEo" secondAttribute="width" id="VqH-p1-G3p"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyD-Yn-8xy">
-                                        <rect key="frame" x="0.0" y="250" width="360" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HyD-Yn-8xy">
+                                        <rect key="frame" x="0.0" y="352" width="360" height="70"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQr-lh-eAS">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQr-lh-eAS">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Goedendag"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLS-YA-rB1"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haA-kr-Mna">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haA-kr-Mna">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Goedemiddag"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dn0-kI-v1W"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXV-Xi-SPW">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXV-Xi-SPW">
+                                                <rect key="frame" x="240" y="0.0" width="120" height="70"/>
                                                 <animations/>
                                                 <state key="normal" title="Goedenavond"/>
                                                 <connections>
@@ -235,27 +235,27 @@
                                             <constraint firstItem="haA-kr-Mna" firstAttribute="width" secondItem="wQr-lh-eAS" secondAttribute="width" id="ipi-2p-VO9"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WeW-Qn-1DM">
-                                        <rect key="frame" x="0.0" y="300" width="360" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WeW-Qn-1DM">
+                                        <rect key="frame" x="0.0" y="422" width="360" height="71"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abd-jQ-vVl">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abd-jQ-vVl">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Vandaag"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCJ-pC-FUJ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjd-BF-gJg">
-                                                <rect key="frame" x="120" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjd-BF-gJg">
+                                                <rect key="frame" x="120" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Tot morgen!"/>
                                                 <connections>
                                                     <action selector="translation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1X8-Ib-mqI"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9V-IS-Waw">
-                                                <rect key="frame" x="240" y="0.0" width="120" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9V-IS-Waw">
+                                                <rect key="frame" x="240" y="0.0" width="120" height="71"/>
                                                 <animations/>
                                                 <state key="normal" title="Welterusten"/>
                                                 <connections>
@@ -303,6 +303,7 @@
                             <constraint firstItem="ii0-Yh-yOp" firstAttribute="centerX" secondItem="YaL-sO-iQM" secondAttribute="centerX" id="VMO-B5-NLp"/>
                             <constraint firstItem="6MX-fC-dlE" firstAttribute="top" secondItem="YaL-sO-iQM" secondAttribute="bottom" constant="8" id="Wbo-ts-Msl"/>
                             <constraint firstItem="ii0-Yh-yOp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ZIk-9W-6Lq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6MX-fC-dlE" secondAttribute="bottom" id="a7z-VP-92j"/>
                             <constraint firstItem="ii0-Yh-yOp" firstAttribute="leading" secondItem="YaL-sO-iQM" secondAttribute="leading" id="ged-lq-3sU"/>
                             <constraint firstAttribute="leadingMargin" secondItem="YaL-sO-iQM" secondAttribute="leading" id="hOW-as-ZU9"/>
                             <constraint firstItem="YaL-sO-iQM" firstAttribute="top" secondItem="ii0-Yh-yOp" secondAttribute="bottom" constant="8" symbolic="YES" id="ik9-qx-Z2j"/>
